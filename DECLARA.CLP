@@ -10,12 +10,15 @@ CAMPO_SAIDA_DIGITAL(lampadaA)
 CAMPO_SAIDA_DIGITAL(lampadaB)
 
 //////////////////////////////////////////////////////////////////////////
-// Sinal auxiliar: indica qual lâmpada está na vez
+// Sinais auxiliares
 //////////////////////////////////////////////////////////////////////////
-CAMPO_SINAL_DIGITAL(auxVezDaLampadaB)
+CAMPO_SINAL_DIGITAL(auxVezDaLampadaB)  // 1 = vez da B, 0 = vez da A
+CAMPO_SINAL_DIGITAL(auxPulsoTroca)     // fim da contagem com trem presente
+CAMPO_SINAL_DIGITAL(auxSetB)           // pulso que liga a vez da B
+CAMPO_SINAL_DIGITAL(auxResetB)         // pulso que desliga a vez da B
 
 //////////////////////////////////////////////////////////////////////////
-// Tempo de alternância configurável pela IHM (em centésimos de segundo)
+// Tempo de alternância configurável pela IHM (centésimos de segundo)
 //////////////////////////////////////////////////////////////////////////
 CAMPO_INT(tempoAlternancia)
 TEMPORIZADOR(tmpAlternancia, tempoAlternancia)
