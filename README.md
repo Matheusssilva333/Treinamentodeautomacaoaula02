@@ -1,4 +1,4 @@
-# Semáforo de passagem de nível (CLP Branqs) - Treinamento de estágio em automação industrial - Branqs Automação
+# Semáforo de passagem de nível (CLP Branqs) - Treinamento de estágio em automação industrial 
 
 ## Objetivo
 Ao detectar um trem na via, acionar alternadamente as lâmpadas A e B do
