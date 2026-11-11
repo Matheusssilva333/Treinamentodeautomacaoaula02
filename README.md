@@ -35,9 +35,5 @@ sinaleiro. O tempo de alternância é configurado pela IHM.
 - [ ] Vez reinicia em A em um novo trem
 - [ ] Tempo configurado pela IHM tem efeito
 
-## Limitações
-- A lógica assume que o `fim_` dura um ciclo e que o `dsp_` cai no
-  ciclo seguinte. Confirme esse comportamento no software da Branqs.
-- A simulação em Python (`semaforo_clp.py`) é uma aproximação do ciclo
-  de varredura e não substitui o teste no CLP.
+
 
